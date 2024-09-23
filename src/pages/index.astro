@@ -30,29 +30,27 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hi, I'm Cindy"
+					tagline="I'm an Asian-American artist, designer, and developer! My goal is to create inclusive designs that celebrate our different identities. By day, I'm an engineer. By night, I'm an avid creator."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em" />Developer</Pill>
+						<Pill><Icon icon="paint-brush" size="1.33em" /> Artist</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
-					width="480"
-					height="620"
-					src="/assets/portrait.jpg"
+					alt="TODO"
+					width="600"
+					src="/assets/homepage_profile.jpg"
 				/>
 			</header>
 
-			<Skills />
+			<!-- <Skills /> -->
 		</div>
 
-		<main class="wrapper stack gap-20 lg:gap-48">
+		<!-- <main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
@@ -100,9 +98,9 @@ const projects = (await getCollection('work'))
 					</Grid>
 				</div>
 			</section>
-		</main>
+		</main> -->
 
-		<ContactCTA />
+		<!-- <ContactCTA /> -->
 	</div>
 </BaseLayout>
 
@@ -119,19 +117,19 @@ const projects = (await getCollection('work'))
 	}
 
 	.hero img {
-		aspect-ratio: 5 / 4;
+		aspect-ratio: 4/4;
 		object-fit: cover;
 		object-position: top;
-		border-radius: 1.5rem;
+		border-radius: 100%;
 		box-shadow: var(--shadow-md);
 	}
 
 	@media (min-width: 50em) {
 		.hero {
 			display: grid;
-			grid-template-columns: 6fr 4fr;
+			grid-template-columns: 6fr 6fr;
 			padding-inline: 2.5rem;
-			gap: 3.75rem;
+			gap: 2rem;
 		}
 
 		.roles {
@@ -141,8 +139,8 @@ const projects = (await getCollection('work'))
 		}
 
 		.hero img {
-			aspect-ratio: 3 / 4;
-			border-radius: 4.5rem;
+			aspect-ratio: 4/4;
+			border-radius: 100%;
 			object-fit: cover;
 		}
 	}
