@@ -24,16 +24,6 @@ const projects = (await getCollection('playground')).sort(
 				tagline="Welcome to my Playground, here you can find minor works (creative and technical) that I created over the years. I have always been a creator so please stay and explore my progress!"
 				align="start"
 			/>
-			<Grid variant="offset">
-				{
-					projects.map((project) => (
-						<li>
-							<PortfolioPreview project={project} />
-						</li>
-					))
-				}
-			</Grid>
 		</main>
-		<!-- <ContactCTA /> -->
 	</div>
 </BaseLayout>
