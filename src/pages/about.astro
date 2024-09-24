@@ -8,34 +8,37 @@ import Hero from '../components/Hero.astro';
 <BaseLayout title="About | Cindy Ngo" description="About Cindy Ngo">
 	<div class="stack gap-20">
 		<main class="wrapper about">
-			<Hero
-				title="About Me"
-				tagline=""
-			>
+			<div>
 				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
-
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						I have a passion for digital art and illustrations. Coupled 
-						with my love for computers, I aspire to create digital media and applications that 
-						inspire both interaction and emotion.
-					</p>
-					<br/>
-					<p>
-						I believe that the digital world plays a key role in our lives. From daily software 
-						applications to the webpages we know and love, I want to create safe spaces and relatable 
-						designs that enrich the lives of many.
-					</p>
-				</div>
-			</section>
+				width="500"
+				height="500"
+				src="/assets/profile_1.png"
+				alt="Cindy staring up at the sky"
+			/>
+			</div>
+			<div>
+				<Hero
+					title="About Me"
+					tagline=""
+					align="start"
+				>
+				<section>
+					<div class="content">
+						<p>
+							I have a passion for digital art and illustrations. Coupled 
+							with my love for computers, I aspire to create digital media and applications that 
+							inspire both interaction and emotion.
+						</p>
+						<br/>
+						<p>
+							I believe that the digital world plays a key role in our lives. From daily software 
+							applications to the webpages we know and love, I want to create safe spaces and relatable 
+							designs that enrich the lives of many.
+						</p>
+					</div>
+				</section>
+				</Hero>
+			</div>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
@@ -99,12 +102,13 @@ import Hero from '../components/Hero.astro';
 	.about {
 		display: flex;
 		flex-direction: column;
-		gap: 3.5rem;
+		gap: 4rem 2rem;
 	}
 
 	img {
+		aspect-ratio: 4 / 4;
+        border-radius: 100%;
 		margin-top: 1.5rem;
-		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
 	}
 
@@ -149,11 +153,7 @@ import Hero from '../components/Hero.astro';
 	@media (min-width: 50em) {
 		.about {
 			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
-
-		.about > :global(:first-child) {
-			grid-column-start: 2;
+			grid-template-columns: 4fr 6fr;
 		}
 
 		section {
