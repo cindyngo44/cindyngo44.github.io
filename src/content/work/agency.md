@@ -28,7 +28,7 @@ The Agency had a business need to showcase previous projects to new clients. The
 
 Here is a Figma preview of the actual design work!
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="630" height="450" src="https://embed.figma.com/design/9xrIoAlbtbVEDZorcKrs5w/Case-Study-Wireframes?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="880" height="450" src="https://embed.figma.com/design/9xrIoAlbtbVEDZorcKrs5w/Case-Study-Wireframes?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
 ### New Biz Website
 
@@ -40,5 +40,5 @@ For the New Biz project, I took on the role of a UX/UI designer for a client exc
 
 Below is the evolution of the website's design based on multiple rounds of feedback. I wanted to capture our GenZ energy using trending shapes and designs.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="630" height="450" src="https://embed.figma.com/design/5HRwlWg3jK1m2OVHKuvh6B/New-Biz-Website-(Copy)?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="880" height="450" src="https://embed.figma.com/design/5HRwlWg3jK1m2OVHKuvh6B/New-Biz-Website-(Copy)?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
