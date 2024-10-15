@@ -34,9 +34,9 @@ Here is a Figma preview of the actual design work!
 
 For the New Biz project, I took on the role of a UX/UI designer for a client exclusive website. Although The Agency already had a website for the general public showcasing our work, the New Biz site was created to showcase our capabilities and persuade clients to collaborate with us. The goal was to provide a curated one page scrollable experience that highlights The Agency's strengths, successes, and the GenZ approach. In addition, The Agency was undergoing a full rebrand, providing an open opportunity to experiment!
 
-![alt text](/assets/work/the_agency/agency_colors.png "Title")
+![alt text](/assets/work/the_agency/agency_colors.png "Agency Colors")
 
-![alt text](/assets/work/the_agency/agency_colors_hierarchy.png "Title")
+![alt text](/assets/work/the_agency/agency_colors_hierarchy.png "Agency Colors Hierarchy")
 
 Below is the evolution of the website's design based on multiple rounds of feedback. I wanted to capture our GenZ energy using trending shapes and designs.
 

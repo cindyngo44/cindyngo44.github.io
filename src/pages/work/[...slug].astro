@@ -89,6 +89,10 @@ const { Content } = await entry.render();
 		margin-inline: auto;
 	}
 
+	.content :global(ul) {
+		list-style: disc;
+		margin-left: 1rem;
+	}
 	.content > :global(* + *) {
 		margin-top: 1rem;
 	}
@@ -133,6 +137,9 @@ const { Content } = await entry.render();
 	}
 
 	@media (min-width: 50em) {
+		.content ul{
+		list-style: circle;
+	}
 		.back-link {
 			display: inline-flex;
 			align-self: flex-start;

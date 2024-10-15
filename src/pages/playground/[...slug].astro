@@ -132,6 +132,10 @@ const { Content } = await entry.render();
 		text-decoration-color: currentColor;
 	}
 
+	.content :global(ul) {
+		list-style: disc;
+		margin-left: 1rem;
+	}
 	@media (min-width: 50em) {
 		.back-link {
 			display: inline-flex;
