@@ -7,7 +7,6 @@ import type { iconPaths } from './IconPaths';
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Home', href: '/' },
 	{ label: 'Work', href: '/work/' },
-	{ label: 'Playground', href: '/playground/' },
 	{ label: 'About', href: '/about/' },
 ];
 
@@ -20,9 +19,6 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 
 <nav>
 	<div class="menu-header">
-		<a href="/" class="site-title yipes">
-			<Icon icon="house" color="var(--accent-regular)" size="1.6em" gradient />
-		</a>
 		<menu-button>
 			<template>
 				<button class="menu-button" aria-expanded="false">
