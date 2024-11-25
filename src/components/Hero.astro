@@ -3,12 +3,13 @@ interface Props {
 	title: string;
 	tagline?: string;
 	align?: 'start' | 'center';
+	page?: string;
 }
 
-const { align = 'center', tagline, title } = Astro.props;
+const { align = 'center', tagline, title, page } = Astro.props;
 ---
 
-<div class:list={['hero stack gap-4', align]}>
+<div class:list={['hero stack gap-4', align, page]}>
 	<div class="stack gap-2">
 		<h1 class="title yipes">{title}</h1>
 		{tagline && <p class="tagline">{tagline}</p>}
@@ -42,7 +43,9 @@ const { align = 'center', tagline, title } = Astro.props;
 	.yipes {
 		font-family: 'Yipes';
 	}
-
+	.index .title{
+		font-size: var(--text-5xl);
+	}
 	@media (min-width: 50em) {
 		.hero {
 			font-size: var(--text-md);
@@ -59,6 +62,10 @@ const { align = 'center', tagline, title } = Astro.props;
 
 		.title {
 			font-size: var(--text-5xl);
+		}
+
+		.index .title{
+			font-size: 8rem;;
 		}
 	}
 </style>
