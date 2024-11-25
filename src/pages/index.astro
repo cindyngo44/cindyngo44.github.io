@@ -28,10 +28,15 @@ const projects = (await getCollection('work'))
 <BaseLayout>
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
+
+		</div>
+	</div>
+	<div class="stack gap-20 lg:gap-48">
+		<div class="wrapper stack gap-4 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hi, I'm Cindy"
-					tagline="I'm an Asian-American artist, designer, and developer! My goal is to create inclusive designs that celebrate our different identities. By day, I'm a web developer. By night, I'm an avid creator."
+					title="Hello!"
+					tagline="I'm Cindy! I'm an Asian-American artist, designer, and developer! My goal is to create inclusive designs that celebrate our different identities. I aspire to create digital media and applications that inspire both interaction and emotion. By day, I'm a web developer. By night, I'm an avid creator."
 					align="start"
 				>
 					<div class="roles">
@@ -40,67 +45,82 @@ const projects = (await getCollection('work'))
 					</div>
 				</Hero>
 
-				<img
-					alt="600"
-					width="600"
+				<div class="inline-block bg-white shadow-md max-w-md p-8 rounded-2xl place-self-center text-black">
+					<img
+					alt=""
 					src="/assets/profile_4.png"
 				/>
+					<h5 class="text-black pt-4">Cindy Ngo</h5>
+					<h6 class="text-[#8490b5] pb-4">She/Hers</h6>
+					<div class="stack gap-1">
+						<p class="flex gap-2"><Icon icon="map-pin" color="var(--accent-warm)" size="1.5rem" gradient /> Florida</p>
+						<p class="flex gap-2"><Icon icon="instagram-logo" color="var(--accent-warm)" size="1.5rem" gradient /> @cinnamics</p>
+					</div>
+				</div>
+
 			</header>
 
 			<Skills />
+			<div class="grid grid-cols-1 gap-2 sm:grid-cols-1 md:grid-cols-2 p-[2.5rem]">
+				<section class="flex flex-col gap-2 mb-8">
+					<h4 class="section-title">EXPERIENCES</h4>
+					<div class="flex flex-col gap-8">
+						<div>
+							<p class="mb-1">June 2023 - Present</p>
+							<p class="font-bold">Web Developer and Designer</p>
+							<span class="role">Starburst</span>
+						</div>
+						<div>
+							<p class="font-bold">Discord Moderator (Summer/Fall)</p>
+							<span class="role">Girls Who Code</span>
+						</div>
+						<div>
+							<p class="mb-1">August 2022 - April 2023</p>
+							<p class="font-bold">Teaching Assistant</p>
+							<span class="role">University of Florida</span>
+						</div>
+						<div>
+							<p class="mb-1">January 2022 - April 2023</p>
+							<p class="font-bold">Full Stack Developer/UX Designer</p>
+							<span class="role">The Agency a UF</span>
+						</div>
+						<div>
+							<p class="mb-1">June 2022 - August 2022</p>
+							<p class="font-bold">Web Development and Design Intern</p>
+							<span class="role">Starburst</span>
+						</div>
+					</div>
+				</section>
+				<section class="flex flex-col gap-16">
+					<div>
+						<h4 class="section-title">EDUCATION</h4>
+						<div class="flex flex-col gap-2">
+							<div>
+								<p class="mb-1">2023</p>
+								<p class="font-bold">University of Florida</p>
+								<p class="role">Bachelor of Science in Digital Arts and Computer Sciences</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div>
+						<h4 class="section-title">EXPERTISE</h4>
+						<div class="flex flex-col gap-2">
+
+						</div>
+					</div> -->
+					<div>
+						<h4 class="section-title">Contact</h4>
+						<div class="flex flex-col gap-2">
+							<div>
+								<p class="my-1 gap-2 flex"><Icon icon="email" color="var(--accent-warm)" size="1.5rem" gradient /> ngo-cindy@outlook.com</p>
+								<a href="https://github.com/cindyngo44" target="blank" class="my-1 gap-2 flex"><Icon icon="github-logo" color="var(--accent-warm)" size="1.5rem" gradient /> cindyngo44</a>
+								<a href="https://www.linkedin.com/in/cindy-ngo44/" target="blank" class="my-1 gap-2 flex"><Icon icon="linkedin-logo" color="var(--accent-warm)" size="1.5rem" gradient /> cindy-ngo44</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
 		</div>
-
-		<!-- <main class="wrapper stack gap-20 lg:gap-48">
-			<section class="section with-background with-cta">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							projects.map((project) => (
-								<li>
-									<PortfolioPreview project={project} />
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-
-				<div class="cta">
-					<CallToAction href="/work/">
-						View All
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
-				</div>
-			</section>
-
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-			</section>
-		</main> -->
-
-		<!-- <ContactCTA /> -->
 	</div>
 </BaseLayout>
 
@@ -116,12 +136,16 @@ const projects = (await getCollection('work'))
 		display: none;
 	}
 
+
+	.role {
+        font-style: italic;
+        }
+
 	.hero img {
 		aspect-ratio: 4/4;
 		object-fit: cover;
 		object-position: top;
-		border-radius: 100%;
-		box-shadow: var(--shadow-md);
+		border-radius: 1rem;
 	}
 
 	@media (min-width: 50em) {
@@ -129,7 +153,7 @@ const projects = (await getCollection('work'))
 			display: grid;
 			grid-template-columns: 6fr 6fr;
 			padding-inline: 2.5rem;
-			gap: 2rem;
+			gap: 8rem;
 		}
 
 		.roles {
@@ -140,7 +164,7 @@ const projects = (await getCollection('work'))
 
 		.hero img {
 			aspect-ratio: 4/4;
-			border-radius: 100%;
+			border-radius: 1rem;
 			object-fit: cover;
 		}
 	}
@@ -149,6 +173,7 @@ const projects = (await getCollection('work'))
 
 	.section {
 		display: grid;
+		margin-bottom: 16px;
 		gap: 2rem;
 	}
 
@@ -190,6 +215,10 @@ const projects = (await getCollection('work'))
 
 	.section-header h3 {
 		font-size: var(--text-2xl);
+	}
+
+	.section-title {
+		margin-bottom: 24px;
 	}
 
 	@media (min-width: 50em) {
