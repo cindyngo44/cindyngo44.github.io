@@ -3,29 +3,27 @@ import Icon from './Icon.astro';
 ---
 
 <section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="gear" color="var(--accent-warm)" size="2.5rem" gradient />
-		<h2>Engineer</h2>
-		<p>Perpetually designing and building solutions for today and tomorrow</p>
+	<div class="flex gap-8 align-middle justify-center">
+		<h2>UI/UX</h2>
+		<Icon icon="star-four" color="var(--accent-warm)" size="2.5rem" gradient />
+		<h2>Web Design</h2>
+		<Icon icon="star-four" color="var(--accent-warm)" size="2.5rem" gradient />
+		<h2>Web Development</h2>
+		<Icon icon="star-four" color="var(--accent-warm)" size="2.5rem" gradient />
+		<h2>Graphics</h2>
 	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="binoculars" color="var(--accent-neutral)" size="2.5rem" gradient />
-		<h2>Explorer</h2>
-		<p>Seeking new mediums and technologies to express my creativity</p>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="heart" color="var(--accent-cool)" size="2.5rem" gradient />
-		<h2>Enthusiast</h2>
-		<p>Passionate in the power of what technology and design can do</p>
 </section>
 
 <style>
 	.box {
-		border: 1px solid var(--gray-800);
-		border-radius: 0.75rem;
+		border-top: 5px solid black;
+		border-bottom: 5px solid black;
 		padding: 1.5rem;
-		background-color: var(--gray-999_40);
-		box-shadow: var(--shadow-sm);
+	}
+
+	:global(.theme-dark) .box{
+		border-top: 5px solid white;
+		border-bottom: 5px solid white;
 	}
 
 	.skills {
@@ -35,27 +33,23 @@ import Icon from './Icon.astro';
 	}
 
 	.skills h2 {
-		font-size: var(--text-lg);
-	}
-
-	.skills p {
-		color: var(--gray-400);
+		font-size: var(--text-3xl);
+		font-weight: 300;
 	}
 
 	@media (min-width: 50em) {
 		.box {
-			border-radius: 1.5rem;
 			padding: 2.5rem;
 		}
-
 		.skills {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			gap: 5rem;
+			display: flex;
+			flex-direction: column;
+			gap: 3rem;
 		}
 
 		.skills h2 {
-			font-size: var(--text-2xl);
+			font-size: var(--text-3xl);
+			font-weight: 300;
 		}
 	}
 </style>
