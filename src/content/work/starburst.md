@@ -14,13 +14,13 @@ tags:
 
 > How can we improve, through development and design, a documentation website?
 
-During the Summer of 2022, I held the position of Web Development and Design Intern at Starburst. 
+During the Summer of 2022, I held the position of Web Development and Design Intern at Starburst.
 My responsibilities included:
 
 - Collaborating between technical writers and the UX designers
 - Improve the usability and design aspects of documentation sites (Starburst and Trino)
 - Build data driven pages
-- Create iconography 
+- Create iconography
 
 ### Problems and Challenges
 
@@ -85,7 +85,7 @@ On the design side, I worked on an Icon Library for the documentation team. A re
 ![alt text](/assets/work/starburst/starbrust-iconography-example.webp "An example of Starburst's iconography used in a diagram")
 
 ### Challenges and Conclusions
-Overall, I enjoyed my time at Starburst and working within the Documentation team. I was looking for an internship where my work would be an impactful contribution for the company itself. As the Web Development and Design Intern, I was able to contribute in both the design and technical aspects of the project. 
+Overall, I enjoyed my time at Starburst and working within the Documentation team. I was looking for an internship where my work would be an impactful contribution for the company itself. As the Web Development and Design Intern, I was able to contribute in both the design and technical aspects of the project.
 
 A few challenges I faced was figuring out how to work in a remote capacity (while balancing my role as a student) and understanding industry practices and standards. Although there were few mistakes, I learned, improved, and sought feedback.
 

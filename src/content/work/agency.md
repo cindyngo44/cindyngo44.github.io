@@ -14,15 +14,15 @@ tags:
 
 > LED BY PROFESSIONALS, STAFFED BY STUDENTS
 
-The Agency at UF is a student-run, full-service advertising and public relations firm within the University of Florida’s College of Journalism and Communications. It brings real-world professional experience to students, providing opportunities to practice their academic training on client projects. 
+The Agency at UF is a student-run, full-service advertising and public relations firm within the University of Florida’s College of Journalism and Communications. It brings real-world professional experience to students, providing opportunities to practice their academic training on client projects.
 
 The Agency operates like any other traditional agency with students taking on the roles of account managers, creative directors, media planners, developers, and more. Under the guidance of faculty and industry professionals, students take on real-world clients such as Uber, Disney, Coca Cola, and many more.
 
-At The Agency, I was a Full Stack Developer who also took on the role of UX Designer for our internal projects. Day-to-day responsibilities included maintaining the Agency's own portfolio of websites using Wordpress and Wix. 
+At The Agency, I was a Full Stack Developer who also took on the role of UX Designer for our internal projects. Day-to-day responsibilities included maintaining the Agency's own portfolio of websites using Wordpress and Wix.
 
 ### Case Studies
 
-I adapted the case study slides into web scrollable content using Figma by translating content and assets into a user-friendly format optimized for web viewing. I focused on maintaining the original style of the slides while experimenting with different content layouts. 
+I adapted the case study slides into web scrollable content using Figma by translating content and assets into a user-friendly format optimized for web viewing. I focused on maintaining the original style of the slides while experimenting with different content layouts.
 
 The Agency had a business need to showcase previous projects to new clients. The Developer Department wanted to elevate the existing PowerPoint Slide presentation format into a shareable gallery of case studies. This led us to our next project: The New Biz Website.
 
